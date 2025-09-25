@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>My Profile Card</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Free -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Optional: Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="profile-shell">
+      <!-- Header -->
+      <header class="d-flex align-items-center gap-3 mb-4">
+        <div class="avatar">
+          <img src="./images/mypic.JPG" alt="Vignesh Muthuvelan" />
+        </div>
+        <div>
+          <h1 class="h4 mb-1">Vignesh Muthuvelan</h1>
+          <p class="muted mb-0">Master Trainer | AI/ML | Gen AI | IBM Cloud | Front-end Web Development | Mentor</p>
+        </div>
+      </header>
+
+      <!-- Social Profiles: card grid -->
+      <section class="mb-4">
+        <h2 class="h5 mb-3">Connect on Social</h2>
+        <div class="row g-3 card-grid">
+          <!-- LinkedIn -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap li">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1 text-white">LinkedIn</h3>
+                  <p class="muted small mb-2">Connect professionally</p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://www.linkedin.com/in/vignesh-muthuvelan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Connect
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GitHub -->
+          <!-- <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap gh">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1 text-white">My Profile</h3>
+                  <p class="muted small mb-2">know more about me</p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://vignesh2396.github.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Profile
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- YouTube -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap yt">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1 text-white">YouTube</h3>
+                  <p class="muted small mb-2">Subscribe and support me</p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://www.youtube.com/channel/UCrPST-5dloy0q0gFWCUi26w"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Watch
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap ig">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1 text-white">Instagram</h3>
+                  <p class="muted small mb-2">@feeding_my_curiosity</p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://www.instagram.com/feeding_my_curiosity/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /row -->
+      </section>
+
+      <!-- Udemy Courses Section (separate but consistent) -->
+      <section class="mb-4">
+        <h2 class="h5 mb-3">Udemy Courses</h2>
+        <div class="row g-3">
+          <!-- Course Card 1 -->
+          <div class="col-12 col-md-6">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap ud">
+                   <i class="fa-solid fa-r"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1">Data Analytics using R programming</h3>
+                  <p class="muted small mb-2">
+                    *Free Validity till October 26, 2025
+                  </p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://www.udemy.com/course/data-analytics-using-r/?couponCode=D80C965EA190C29CC5D3"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Course
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course Card 2 -->
+          <div class="col-12 col-md-6">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap ud">
+                   <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1">Python Proficiency in Data Analytics</h3>
+                  <p class="muted small mb-2">
+                    *Free Validity till October 26, 2025
+                  </p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://www.udemy.com/course/python-proficiency-in-data-analytics/?couponCode=BDCE032B6C374892D6F7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Course
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Course Card 3 -->
+          <div class="col-12 col-md-6">
+            <div class="card p-3 h-100">
+              <div class="d-flex align-items-start gap-3">
+                <div class="icon-wrap ud">
+                  <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="flex-fill">
+                  <h3 class="h6 mb-1">Foundations of Data Science: Python to ML</h3>
+                  <p class="muted small mb-2">
+                    *Free Validity till October 26, 2025
+                  </p>
+                  <a
+                    class="btn btn-sm btn-accent"
+                    href="https://www.udemy.com/course/foundations-of-data-science-python-to-ml/?couponCode=A2B12F2D22C5EA947EFD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Course
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square ms-2 small"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div>
+          © <span id="year"></span> Vignesh Muthuvelan. All rights reserved.
+        </div>
+      </footer>
+    </main>
+
+    <!-- Bootstrap Bundle JS (Popper included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
